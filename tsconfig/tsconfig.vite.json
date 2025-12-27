@@ -1,0 +1,13 @@
+{
+    "files": [],
+    "references": [
+        { "path": "./tsconfig.renderer.json" },
+        { "path": "./tsconfig.node.json" }
+    ],
+    "compilerOptions": {
+        "baseUrl": "../src/renderer/",
+        "paths": {
+            "@/*": ["../src/renderer/*"]
+        }
+    }
+}

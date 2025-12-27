@@ -1,0 +1,1 @@
+the file prevents the public folder from being ignored by git.
