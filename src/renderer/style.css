@@ -157,13 +157,13 @@ h1 {
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground m-0 p-0 w-screen h-screen overflow-hidden;
-  }
-  #app {
-    @apply w-full h-full m-0 p-0;
-  }
+    * {
+        @apply border-border outline-ring/50;
+    }
+    body {
+        @apply bg-background text-foreground m-0 p-0 w-screen h-screen overflow-hidden;
+    }
+    #app {
+        @apply w-full h-full m-0 p-0;
+    }
 }

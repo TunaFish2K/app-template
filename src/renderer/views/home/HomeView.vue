@@ -19,9 +19,10 @@ const techStack = [
 ];
 
 const quickStart = [
-  { step: 1, title: '开发模式', command: 'bun run dev', description: '启动开发服务器（热重载）' },
-  { step: 2, title: '构建项目', command: 'bun run build', description: '构建生产版本（默认 Linux amd64，可自行添加其他平台）' },
-  { step: 3, title: '开始编码', description: 'src/renderer 负责渲染界面，src/main/app.ts 是主进程逻辑' }
+  { step: 2, title: '生成清单', command: 'bun run manifest', description: '资源打包' },
+  { step: 1, title: '开发模式', command: 'bun run dev', description: '带有热重载的开发环境' },
+  { step: 3, title: '开始编码', description: 'src/renderer 负责渲染，src/main 负责主逻辑' },
+  { step: 4, title: '构建项目', command: 'bun run build', description: '构建生产版本（默认 Linux amd64，可自行添加其他平台）' }
 ];
 
 // IPC 通讯函数
